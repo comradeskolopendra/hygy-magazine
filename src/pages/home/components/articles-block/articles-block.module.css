@@ -1,0 +1,32 @@
+.articlesTitle {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-family: "Horizon", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 16px 0;
+    font-size: 35px;
+}
+
+.articlesInfo {
+    scroll-margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    gap: 16px;
+    max-width: 90%;
+    width: 100%;
+    margin: 16px auto;
+}
+
+.buttonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px auto 0;
+}

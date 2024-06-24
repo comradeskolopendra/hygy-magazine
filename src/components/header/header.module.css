@@ -1,0 +1,56 @@
+.header {
+    width: 100%;
+    padding: 16px 0;
+    background: white;
+}
+
+.titleName {
+    color: var(--primary-color);
+    font-family: "Horizon", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: fit-content
+}
+
+.hygy {
+    display: inline-block;
+    font-size: 45px;
+    height: 45px;
+}
+
+.magazine {
+    display: inline-block;
+    font-size: 22.5px;
+}
+
+.navigation {
+    background: var(--dark-color);
+    position: sticky;
+    top: 0;
+    z-index: 101;
+}
+
+.navContents {
+    font-family: "Horizon", sans-serif;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    padding: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navLink:hover {
+    background: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}

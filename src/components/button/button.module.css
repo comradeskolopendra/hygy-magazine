@@ -1,0 +1,18 @@
+.button {
+    box-shadow: -5px 5px 0px 0px var(--dark-color);
+    color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+    background-color: var(--light-color);
+    padding: 8px 64px;
+    cursor: pointer;
+    font-family: "Horizon", sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    box-shadow: -5px 5px 0px 0px var(--primary-color);
+    color: var(--light-color);
+    border: 1px solid var(--dark-color);
+    background-color: var(--dark-color);
+    transition: all 0.3s ease-in-out;
+}

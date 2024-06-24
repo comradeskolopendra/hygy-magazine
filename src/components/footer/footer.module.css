@@ -1,0 +1,66 @@
+.border {
+    height: 30px;
+    background-color: black;
+    width: 100%;
+}
+
+.socialNetworks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.socialNetworks svg path {
+    transition: all 0.3s ease-in-out;
+    fill: var(--dark-color);
+}
+
+.socialNetworks svg {
+    cursor: pointer;
+}
+
+.socialNetworks svg rect {
+    transition: all 0.3s ease-in-out;
+    stroke: var(--dark-color);
+}
+
+.socialNetworks svg:hover path {
+    transition: all 0.3s ease-in-out;
+    fill: var(--primary-color);
+}
+
+.socialNetworks svg:hover rect {
+    transition: all 0.3s ease-in-out;
+    stroke: var(--primary-color);
+}
+
+.contents {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.externalLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    font-family: "Horizon", sans-serif;
+    margin-top: 16px;
+}
+
+.externalLinks a {
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.externalLinks a:hover {
+    color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}

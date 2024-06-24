@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Horizon';
+  font-weight: 900;
+  src: local('Horizon'), url(./assets/fonts/horizon.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "HorizonOutlined";
+  src: local("HorizonOutlined") url(./assets/fonts/horizon_outlined.otf) format("opentype");
+}
+
+:root {
+  --primary-color: #D50032;
+  --dark-color: #000000;
+  --light-color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Horizon", sans-serif;
+  margin: 0;
+}

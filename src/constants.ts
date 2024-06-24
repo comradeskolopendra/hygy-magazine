@@ -1,0 +1,1 @@
+export const MAX_WIDTH_SHORT_INFO = 128;

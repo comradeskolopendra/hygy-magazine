@@ -1,0 +1,37 @@
+.articlesTitle {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-family: "Horizon", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 16px 0;
+    font-size: 35px;
+}
+
+.articlesInfo {
+    scroll-margin-top: 50px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(213, 0, 50, 1) 45%);
+    height: 1920px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    gap: 16px;
+    max-width: 1340px;
+    width: 100%;
+    margin: 16px auto;
+    position: sticky;
+    top: 125px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.buttonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px auto 0;
+}
