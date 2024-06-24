@@ -64,3 +64,13 @@
     color: var(--primary-color);
     transition: all 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 1160px) {
+    .externalLinks {
+        flex-direction: column;
+    }
+
+    .externalLinks a {
+        margin: 4px 0;
+    }
+}

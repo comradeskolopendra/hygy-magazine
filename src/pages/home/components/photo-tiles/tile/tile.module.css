@@ -17,6 +17,17 @@
     position: absolute;
     top: 0;
     opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.content p {
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end;
+    margin: auto 0 0;
+    color: var(--primary-color)
 }
 
 .tile:hover .content {

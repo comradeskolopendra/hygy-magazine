@@ -15,12 +15,11 @@
 }
 
 .articles {
-    display: grid;
-    grid-template-columns: 2fr 3fr 2fr;
     gap: 16px;
     max-width: 90%;
     width: 100%;
     margin: 16px auto;
+    column-count: 3;
 }
 
 .buttonWrapper {

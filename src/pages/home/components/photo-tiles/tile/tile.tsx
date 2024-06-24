@@ -14,7 +14,9 @@ const Tile: FC<TileProps> = ({ photo, title, info }) => {
             <img className={styles.tileImage} src={photo || articlePhoto} alt="" />
 
             <div className={styles.content}>
-                <h2 className={styles.title}>{title || "ARTICLE HEADING"}</h2>
+                <h2 className={styles.title}>{title || "PHOTO HEADING"}</h2>
+
+                <p>author</p>
             </div>
         </article>
     )
