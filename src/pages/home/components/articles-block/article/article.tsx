@@ -1,24 +1,17 @@
-import styles from "./article.module.css";
 import { FC } from "react";
+import styles from "./article.module.css";
 
 interface ArticleProps {
-    shortInfo: string;
-    heading: string;
+    name: string;
     photo: string;
 }
 
-const Article: FC<ArticleProps> = ({ shortInfo, heading, photo }) => {
+const Article: FC<ArticleProps> = ({ name, photo }) => {
+
     return (
-        <article className={styles.article}>
-            <h2 className={styles.heading}>
-                {heading}
-            </h2>
-
-            <img src={photo} className={styles.image} alt="" />
-
-            <p className={styles.shortInfo}>
-                {shortInfo}
-            </p>
+        <article>
+            <h2 className={styles.heading}>{name}</h2>
+            <img src={photo} className={styles.photo} alt="" />
         </article>
     )
 };

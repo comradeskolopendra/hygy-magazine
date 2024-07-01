@@ -6,16 +6,16 @@ import Tile from "./tile/tile";
 
 interface ArticlesTilesProps {
     name: string;
-    articles: any[];
+    tiles: any[];
 }
 
-const ArticlesTiles: FC<ArticlesTilesProps> = ({ name, articles }) => {
+const ArticlesTiles: FC<ArticlesTilesProps> = ({ name, tiles }) => {
     return (
         <section className={styles.tilesInfo} id={name}>
             <h2 className={styles.tilesTitle}>{name}</h2>
 
             <section className={styles.tiles}>
-                {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(() => (
+                {[1, 2, 3, 4, 5, 6, 7, 8].map(() => (
                     <Tile />
                 ))}
             </section>

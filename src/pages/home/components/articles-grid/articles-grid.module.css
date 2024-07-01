@@ -1,10 +1,20 @@
 .articles {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
-    grid-template-rows: auto auto;
-    padding: 0 16px;
-    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 90%;
+    width: 100%;
+}
+
+.articles>article {
+    width: 45%;
+    margin-right: 8px;
+}
+
+.smallArticles {
+    width: 38.4%;
 }
 
 .articlesTitle {

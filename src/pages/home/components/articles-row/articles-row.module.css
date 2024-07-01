@@ -1,12 +1,3 @@
-.articles {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
-    grid-template-rows: auto auto;
-    padding: 0 16px;
-    margin-top: 16px;
-}
-
 .articlesTitle {
     width: 100%;
     background-color: var(--primary-color);
@@ -21,6 +12,15 @@
 .articlesInfo {
     scroll-margin-top: 50px;
     margin-bottom: 16px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    gap: 16px;
+    max-width: 90%;
+    width: 100%;
+    margin: 16px auto;
 }
 
 .buttonWrapper {

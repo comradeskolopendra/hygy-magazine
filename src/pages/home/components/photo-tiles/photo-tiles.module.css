@@ -16,7 +16,7 @@
 
 .tiles {
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(4, auto);
     grid-template-rows: auto;
     gap: 16px;
     box-sizing: border-box;

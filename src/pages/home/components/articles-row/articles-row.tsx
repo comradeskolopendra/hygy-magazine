@@ -1,23 +1,26 @@
 import { FC } from "react";
-import styles from "./articles-block.module.css";
-
 import Button from "../../../../components/button/button";
-import { BASE_URL, MOCK_IMAGES_ARTICLES } from "../../../../constants";
 import Article from "./article/article";
+import styles from "./articles-row.module.css";
 
-interface ArticlesGridProps {
+interface ArticlesSpaceProps {
     name: string;
-    articles: any[];
+    articles: { shortInfo: string; heading: string; photo: string }[];
 }
 
-const ArticlesBlock: FC<ArticlesGridProps> = ({ name }) => {
+const ArticlesRow: FC<ArticlesSpaceProps> = ({ name, articles }) => {
     return (
         <section id={name} className={styles.articlesInfo}>
             <h2 className={styles.articlesTitle}>{name}</h2>
 
             <section className={styles.articles}>
-                {[1, 2, 3, 4, 5, 6].map(() => (
-                    <Article name={"Heading title"} photo={`${BASE_URL}${MOCK_IMAGES_ARTICLES[1]}`} />
+                {articles.map(element => (
+                    <Article
+                        heading={element.heading}
+                        photo={element.photo}
+                        shortInfo={element.shortInfo}
+                        key={element.photo}
+                    />
                 ))}
             </section>
 
@@ -30,4 +33,4 @@ const ArticlesBlock: FC<ArticlesGridProps> = ({ name }) => {
     )
 };
 
-export default ArticlesBlock;
+export default ArticlesRow;
