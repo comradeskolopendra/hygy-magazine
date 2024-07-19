@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 25%;
+    width: 15%;
 }
 
 .socialNetworks svg path {
@@ -42,6 +42,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--dark-color);
 }
 
 .externalLinks {
@@ -51,12 +52,12 @@
     align-items: center;
     width: 50%;
     font-family: "Horizon", sans-serif;
-    margin-top: 16px;
+    margin-top: 40px;
 }
 
 .externalLinks a {
     text-decoration: none;
-    color: var(--dark-color);
+    color: var(--light-color);
     transition: all 0.3s ease-in-out;
 }
 

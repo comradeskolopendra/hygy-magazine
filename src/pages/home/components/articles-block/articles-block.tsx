@@ -17,7 +17,11 @@ const ArticlesBlock: FC<ArticlesGridProps> = ({ name }) => {
 
             <section className={styles.articles}>
                 {[1, 2, 3, 4, 5, 6].map(() => (
-                    <Article name={"Heading title"} photo={`${BASE_URL}${MOCK_IMAGES_ARTICLES[1]}`} />
+                    <Article
+                        name={"Heading title"}
+                        photo={`${BASE_URL}${MOCK_IMAGES_ARTICLES[1]}`}
+                        description="Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London`s"
+                    />
                 ))}
             </section>
 

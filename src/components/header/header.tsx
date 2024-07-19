@@ -19,6 +19,7 @@ const Header: FC = () => {
             </header>
             <nav className={styles.navigation}>
                 <div className={styles.navContents}>
+                    <HashLink to="#top-news" className={styles.navLink}>TOP NEWS</HashLink>
                     <HashLink to="#art" className={styles.navLink}>ART</HashLink>
                     <HashLink to="#fashion" className={styles.navLink}>FASHION</HashLink>
                     <HashLink to="#beauty" className={styles.navLink}>BEAUTY</HashLink>

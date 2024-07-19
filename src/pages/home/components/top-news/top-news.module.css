@@ -1,20 +1,15 @@
+.topNews {
+    scroll-margin-top: 50px;
+    margin-bottom: 16px;
+}
+
 .articles {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    max-width: 90%;
-    width: 100%;
-}
-
-.articles>article {
-    width: 45%;
-    margin-right: 8px;
-}
-
-.smallArticles {
-    width: 38.4%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 16px;
+    padding: 0 64px;
 }
 
 .articlesTitle {
@@ -26,11 +21,6 @@
     margin: 0;
     padding: 16px 0;
     font-size: 35px;
-}
-
-.articlesInfo {
-    scroll-margin-top: 50px;
-    margin-bottom: 16px;
 }
 
 .buttonWrapper {

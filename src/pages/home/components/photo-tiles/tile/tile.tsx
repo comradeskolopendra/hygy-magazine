@@ -16,7 +16,7 @@ const Tile: FC<TileProps> = ({ photo, title, info }) => {
             <div className={styles.content}>
                 <h2 className={styles.title}>{title || "PHOTO HEADING"}</h2>
 
-                <p>author</p>
+                <p className={styles.author}>author</p>
             </div>
         </article>
     )

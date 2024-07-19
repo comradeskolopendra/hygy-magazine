@@ -1,25 +1,21 @@
 .articles {
-    display: grid;
-    grid-template-areas:
-        "big top top"
-        "big bot bot";
-    max-width: 90%;
-    margin: 0 auto;
-    gap: 16px;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 64px;
+    margin: 16px auto 0;
 }
 
 .big {
-    grid-area: big;
+    width: 45%;
 }
 
-.top {
-    grid-area: top;
-}
-
-.bot {
-    grid-area: bot;
+.smallArticles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
 }
 
 .articlesTitle {

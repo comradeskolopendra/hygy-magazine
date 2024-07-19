@@ -1,0 +1,25 @@
+.article {
+    display: flex;
+}
+
+.article img {
+    margin-right: 24px;
+    max-height: 220px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+.description {
+    font-size: 20px;
+    font-family: "Bebas", sans-serif;
+    margin: 0;
+}
