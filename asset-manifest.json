@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.23d99d8d.css",
+    "main.css": "./static/css/main.7f4fb4e6.css",
     "main.js": "./static/js/main.ddd55773.js",
     "static/media/Matahari-Bold.ttf": "./static/media/Matahari-Bold.b30681bbeed7346370ea.ttf",
     "static/media/Matahari-Thin.ttf": "./static/media/Matahari-Thin.5d7a4e8a3d710df22c0b.ttf",
@@ -13,11 +13,11 @@
     "static/media/BebasNeue-Regular.ttf": "./static/media/BebasNeue-Regular.e141c2ca4bf7dc222d1c.ttf",
     "static/media/BebasNeue-Bold.ttf": "./static/media/BebasNeue-Bold.631170744c6a98c2e74e.ttf",
     "index.html": "./index.html",
-    "main.23d99d8d.css.map": "./static/css/main.23d99d8d.css.map",
+    "main.7f4fb4e6.css.map": "./static/css/main.7f4fb4e6.css.map",
     "main.ddd55773.js.map": "./static/js/main.ddd55773.js.map"
   },
   "entrypoints": [
-    "static/css/main.23d99d8d.css",
+    "static/css/main.7f4fb4e6.css",
     "static/js/main.ddd55773.js"
   ]
 }
