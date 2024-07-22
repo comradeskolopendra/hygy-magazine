@@ -2,6 +2,7 @@ import { FC } from "react";
 import styles from "./header.module.css";
 
 import { HashLink } from "react-router-hash-link";
+import search from "../../assets/images/search.png";
 
 const Header: FC = () => {
 
@@ -16,6 +17,13 @@ const Header: FC = () => {
                         MAGAZINE
                     </span>
                 </h1>
+
+                <div className={styles.search}>
+                    <input className={styles.searchInput} type="text" />
+                    <button className={styles.searchButton}>
+                        <img src={search} alt="" />
+                    </button>
+                </div>
             </header>
             <nav className={styles.navigation}>
                 <div className={styles.navContents}>

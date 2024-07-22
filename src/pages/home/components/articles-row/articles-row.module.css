@@ -5,7 +5,7 @@
     font-family: "Horizon", sans-serif;
     text-align: center;
     margin: 0;
-    padding: 16px 0;
+    padding: 2px 0;
     font-size: 35px;
 }
 
@@ -19,7 +19,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 45px;
     grid-template-rows: auto auto;
-    padding: 0 64px;
+    padding: 0 80px;
     margin-top: 16px;
 }
 
