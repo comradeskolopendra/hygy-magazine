@@ -1,10 +1,22 @@
-import { FC } from "react";
+import { FC, useRef, useState } from "react";
 import styles from "./header.module.css";
 
 import { HashLink } from "react-router-hash-link";
 import search from "../../assets/images/search.png";
 
 const Header: FC = () => {
+    const inputRef = useRef<HTMLInputElement>(null);
+    const [isInputActive, setIsInputActive] = useState<boolean>(false);
+
+    const handleChangeActive = () => {
+        setIsInputActive(prevState => {
+            if (!prevState) {
+                inputRef.current?.focus();
+            }
+
+            return !prevState;
+        });
+    };
 
     return (
         <>
@@ -19,8 +31,8 @@ const Header: FC = () => {
                 </h1>
 
                 <div className={styles.search}>
-                    <input className={styles.searchInput} type="text" />
-                    <button className={styles.searchButton}>
+                    <input ref={inputRef} className={`${styles.searchInput}  ${isInputActive ? styles.activeSearchInput : ""}`} type="text" />
+                    <button className={styles.searchButton} onClick={handleChangeActive}>
                         <img src={search} alt="" />
                     </button>
                 </div>

@@ -25,6 +25,12 @@
     border-bottom: 1px solid var(--dark-color);
     font-size: 25px;
     width: 165px;
+    border-bottom-width: 0;
+    position: relative;
+}
+
+.activeSearchInput {
+    border-bottom-width: 1px;
 }
 
 .titleName {
@@ -46,6 +52,7 @@
     display: inline-block;
     font-size: 24px;
     letter-spacing: 23px;
+    text-indent: 5px;
 }
 
 .navigation {

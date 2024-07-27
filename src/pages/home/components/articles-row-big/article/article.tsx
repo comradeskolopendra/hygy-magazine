@@ -11,7 +11,7 @@ interface ArticleProps {
 const Article: FC<ArticleProps> = ({ shortInfo, heading, photo, isCenter }) => {
     return (
         <article className={styles.article}>
-            <h2 className={`${styles.heading} ${isCenter ? styles.bigHeading : styles.smallHeading}`}>
+            <h2 className={`${styles.title} ${isCenter ? styles.bigTitle : styles.smallTitle}`}>
                 {heading}
             </h2>
 
