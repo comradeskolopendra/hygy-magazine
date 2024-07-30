@@ -49,10 +49,10 @@
 }
 
 .magazine {
-    display: inline-block;
     font-size: 24px;
     letter-spacing: 23px;
     text-indent: 5px;
+    margin-top: -5px;
 }
 
 .navigation {

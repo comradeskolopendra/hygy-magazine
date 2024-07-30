@@ -4,6 +4,8 @@ import Article from "./article/article";
 import styles from "./top-news.module.css";
 import Button from "../../../../components/button/button";
 
+import photo from "../../../../assets/images/griefs.jpg";
+
 interface TopNewsProps {
     name: string;
 }
@@ -18,7 +20,7 @@ const TopNews: FC<TopNewsProps> = ({ name }) => {
                 {[1, 2, 3, 4].map(() =>
                     <Article
                         title={"ARTICLE TITLE (THE 2ND LINE) "}
-                        image={`${BASE_URL}/griefs.jpg`}
+                        image={photo}
                         description="Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London’s Gen Z about their least favourite fashion trend and the answer is almost always some variation of ‘skiNNy JeAnS’.  "
                     />
                 )}

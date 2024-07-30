@@ -5,6 +5,8 @@ import Button from "../../../../components/button/button";
 import { BASE_URL, MOCK_IMAGES_ARTICLES } from "../../../../constants";
 import Article from "./article/article";
 
+import photo from "../../../../assets/images/griefs.jpg";
+
 interface ArticlesGridProps {
     name: string;
     articles: any[];
@@ -19,7 +21,8 @@ const ArticlesBlock: FC<ArticlesGridProps> = ({ name }) => {
                 {[1, 2, 3, 4, 5, 6].map(() => (
                     <Article
                         name={"Heading title"}
-                        photo={`${BASE_URL}${MOCK_IMAGES_ARTICLES[1]}`}
+                        // photo={`${BASE_URL}${MOCK_IMAGES_ARTICLES[1]}`}
+                        photo={photo}
                         description="Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London`s"
                     />
                 ))}
