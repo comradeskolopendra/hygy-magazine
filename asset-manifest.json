@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.62c5c167.css",
+    "main.css": "./static/css/main.96f18110.css",
     "main.js": "./static/js/main.5016ba4f.js",
     "static/media/griefs.jpg": "./static/media/griefs.577cfcfac9a9d45aeaad.jpg",
     "static/media/Matahari-Bold.ttf": "./static/media/Matahari-Bold.b30681bbeed7346370ea.ttf",
@@ -14,11 +14,11 @@
     "static/media/BebasNeue-Regular.ttf": "./static/media/BebasNeue-Regular.e141c2ca4bf7dc222d1c.ttf",
     "static/media/BebasNeue-Bold.ttf": "./static/media/BebasNeue-Bold.631170744c6a98c2e74e.ttf",
     "index.html": "./index.html",
-    "main.62c5c167.css.map": "./static/css/main.62c5c167.css.map",
+    "main.96f18110.css.map": "./static/css/main.96f18110.css.map",
     "main.5016ba4f.js.map": "./static/js/main.5016ba4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.62c5c167.css",
+    "static/css/main.96f18110.css",
     "static/js/main.5016ba4f.js"
   ]
 }
