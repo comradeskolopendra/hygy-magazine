@@ -18,11 +18,11 @@ const ArticlesGrid: FC<ArticlesGridProps> = ({ name }) => {
             <h2 className={styles.articlesTitle}>{name}</h2>
 
             <section className={styles.articles}>
-                <Article className={styles.big} name={"ARTICLE TITLE ( THE 2ND LINE) "} shortInfo={"Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London’s Gen Z about their least favourite fashion trend and the answer is almost always some variation of ‘skiNNy JeAnS’. Thanks to the 60s film and rock stars, the 80s Punk Movement and the Y2K era, skinny jeans have enjoyed extensive popularity."} photo={`${BASE_URL}/${MOCK_IMAGES_ARTICLES[2]}`} />
+                <Article className={styles.big} name={"ARTICLE TITLE ( THE 2ND LINE) "} shortInfo={"Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London’s Gen Z about their least favourite fashion trend and the answer is almost always"} photo={`${BASE_URL}/${MOCK_IMAGES_ARTICLES[2]}`} />
 
                 <div className={styles.smallArticles}>
-                    <SmallArticle title={"ARTICLE TITLE ( THE 2ND LINE) "} description={"Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London’s Gen Z about their least favourite fashion trend and the answer is almost always some variation of ‘skiNNy JeAnS’."} image={photo} />
-                    <SmallArticle title={"ARTICLE TITLE ( THE 2ND LINE) "} description={"Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London’s Gen Z about their least favourite fashion trend and the answer is almost always some variation of ‘skiNNy JeAnS’."} image={photo} />
+                    <SmallArticle title={"ARTICLE TITLE ( THE 2ND LINE) "} description={"Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London’s Gen Z about their least favourite fashion trend and the answer is"} image={photo} />
+                    <SmallArticle title={"ARTICLE TITLE ( THE 2ND LINE) "} description={"Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London’s Gen Z about their least favourite fashion trend and the answer is"} image={photo} />
                 </div>
 
             </section>

@@ -22,7 +22,7 @@ const ArticlesRow: FC<ArticlesSpaceProps> = ({ name, articles }) => {
                         key={index}
                         heading={"ARTICLE TITLE (THE 2ND LINE) "}
                         photo={photo}
-                        shortInfo="Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London’s Gen Z about their least favourite fashion trend and the answer is almost always some variation of ‘skiNNy JeAnS’.  "
+                        shortInfo="Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London’s Gen Z about their least favourite fashion trend and the answer is"
                     />
                 ))}
             </section>
