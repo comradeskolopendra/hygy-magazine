@@ -1,10 +1,11 @@
 .article {
     display: flex;
+    width: 48%;
 }
 
 
 .imageWrapper {
-    max-width: 350px;
+    max-width: 50%;
     /* height: 100%; */
     margin-right: 24px;
 }
@@ -17,7 +18,7 @@
 .info {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 50%;
     width: 100%;
 }
 

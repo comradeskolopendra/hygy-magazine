@@ -1,11 +1,14 @@
 import { FC, useRef, useState } from "react";
 import styles from "./header.module.css";
 
-import { HashLink } from "react-router-hash-link";
+import { useLocation } from "react-router";
 import search from "../../assets/images/search.png";
+import HomeNavigation from "./home-navigation/home-navigation";
+import SectionNavigation from "./section-navigation/section-navigation";
 
 const Header: FC = () => {
     const inputRef = useRef<HTMLInputElement>(null);
+    const location = useLocation();
     const [isInputActive, setIsInputActive] = useState<boolean>(false);
 
     const handleChangeActive = () => {
@@ -37,15 +40,14 @@ const Header: FC = () => {
                     </button>
                 </div>
             </header>
+
             <nav className={styles.navigation}>
                 <div className={styles.navContents}>
-                    <HashLink to="#top-news" className={styles.navLink}>TOP NEWS</HashLink>
-                    <HashLink to="#art" className={styles.navLink}>ART</HashLink>
-                    <HashLink to="#fashion" className={styles.navLink}>FASHION</HashLink>
-                    <HashLink to="#beauty" className={styles.navLink}>BEAUTY</HashLink>
-                    <HashLink to="#social" className={styles.navLink}>SOCIAL</HashLink>
-                    <HashLink to="#creative" className={styles.navLink}>CREATIVE</HashLink>
-                    <HashLink to="#events" className={styles.navLink}>EVENTS</HashLink>
+                    {location.pathname === "/" ? (
+                        <HomeNavigation />
+                    ) : (
+                        <SectionNavigation />
+                    )}
                 </div>
             </nav>
         </>

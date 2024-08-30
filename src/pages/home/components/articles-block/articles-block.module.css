@@ -18,6 +18,10 @@
     font-size: 35px;
 }
 
+.contentWrapper {
+    margin: 24px 0;
+}
+
 .articlesInfo {
     scroll-margin-top: 50px;
     margin-bottom: 16px;

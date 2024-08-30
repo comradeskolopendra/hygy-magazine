@@ -16,22 +16,24 @@ const ArticlesBigRow: FC<ArticlesSpaceProps> = ({ name, articles }) => {
         <section id={name} className={styles.articlesInfo}>
             <h2 className={styles.articlesTitle}>{name}</h2>
 
-            <section className={styles.articles}>
-                {articles.map((element, index) => (
-                    <Article
-                        key={index}
-                        isCenter={index === 1}
-                        heading={"ARTICLE TITLE (THE 2ND LINE) "}
-                        photo={photo}
-                        shortInfo="Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London’s Gen Z about their least favourite fashion trend "
-                    />
-                ))}
-            </section>
+            <div className={styles.contentWrapper}>
+                <section className={styles.articles}>
+                    {articles.map((element, index) => (
+                        <Article
+                            key={index}
+                            isCenter={index === 1}
+                            heading={"ARTICLE TITLE (THE 2ND LINE)"}
+                            photo={photo}
+                            shortInfo="Why do skinny jeans get so much hate? Watch any TikTok or IG Reel asking London’s Gen Z about their least favourite fashion trend "
+                        />
+                    ))}
+                </section>
 
-            <div className={styles.buttonWrapper}>
-                <Button>
-                    SHOW MORE
-                </Button>
+                <div className={styles.buttonWrapper}>
+                    <Button>
+                        SHOW MORE
+                    </Button>
+                </div>
             </div>
         </section>
     )

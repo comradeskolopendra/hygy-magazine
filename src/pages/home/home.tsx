@@ -16,9 +16,9 @@ const HomePage: FC = () => {
             <HeadingImage />
 
             <TopNews name={"Top News"} />
+            <ArticlesGrid name={fashionBlock.name} />
             <ArticlesRow name={artBlock.name} articles={artBlock.articles} />
-            <ArticlesBigRow name={fashionBlock.name} articles={fashionBlock.articles} />
-            <ArticlesGrid name={beautyBlock.name} />
+            <ArticlesBigRow name={beautyBlock.name} articles={fashionBlock.articles} />
             <ArticlesBlock name={socialBlock.name} articles={socialBlock.articles} />
             <PhotoTiles name={"creative"} tiles={[]} />
             <ArticlesRow name={eventsBlock.name} articles={eventsBlock.articles} />

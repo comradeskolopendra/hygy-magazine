@@ -1,0 +1,21 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    color: white;
+}
+
+.photo {
+    width: 100%;
+}
+
+.text {
+    font-family: "Bebas", sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+.title {
+    margin: 20px 0;
+    font-size: 25px;
+}

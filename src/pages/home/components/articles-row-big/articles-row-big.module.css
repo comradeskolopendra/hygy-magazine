@@ -9,6 +9,10 @@
     font-size: 35px;
 }
 
+.contentWrapper {
+    margin: 24px 0;
+}
+
 .articlesInfo {
     scroll-margin-top: 50px;
     margin-bottom: 16px;
@@ -19,7 +23,6 @@
     grid-template-columns: 2fr 3fr 2fr;
     gap: 45px;
     padding: 0 80px;
-    margin-top: 16px;
 }
 
 .buttonWrapper {

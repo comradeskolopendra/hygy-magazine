@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import styles from "./footer.module.css";
 
 import yt from "../../assets/images/socials/yt.png";
@@ -7,10 +7,11 @@ import lnkd from "../../assets/images/socials/lnkd.png";
 import Marquee from "../marquee/marquee";
 
 const Footer = () => {
+    const location = useLocation();
 
     return (
         <footer>
-            <Marquee />
+            {location.pathname === "/" && <Marquee />}
             <section className={styles.contents}>
                 <div className={styles.socialNetworks}>
                     <img src={yt} alt="" />
