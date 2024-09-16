@@ -10,9 +10,10 @@ import photo from "../../../../assets/images/griefs.jpg";
 
 interface ArticlesGridProps {
     name: string;
+    showMoreHandler: () => void;
 }
 
-const ArticlesGrid: FC<ArticlesGridProps> = ({ name }) => {
+const ArticlesGrid: FC<ArticlesGridProps> = ({ name, showMoreHandler }) => {
     return (
         <section id={name} className={styles.articlesInfo}>
             <h2 className={styles.articlesTitle}>{name}</h2>
@@ -29,7 +30,7 @@ const ArticlesGrid: FC<ArticlesGridProps> = ({ name }) => {
                 </section>
 
                 <div className={styles.buttonWrapper}>
-                    <Button>
+                    <Button onClick={showMoreHandler}>
                         SHOW MORE
                     </Button>
                 </div>

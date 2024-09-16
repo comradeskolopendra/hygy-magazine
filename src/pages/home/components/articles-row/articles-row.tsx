@@ -9,9 +9,10 @@ import photo from "../../../../assets/images/griefs.jpg";
 interface ArticlesSpaceProps {
     name: string;
     articles: { shortInfo: string; heading: string; photo: string }[];
+    showMoreHandler: () => void;
 }
 
-const ArticlesRow: FC<ArticlesSpaceProps> = ({ name, articles }) => {
+const ArticlesRow: FC<ArticlesSpaceProps> = ({ name, articles, showMoreHandler }) => {
     return (
         <section id={name} className={styles.articlesInfo}>
             <h2 className={styles.articlesTitle}>{name}</h2>
@@ -29,7 +30,7 @@ const ArticlesRow: FC<ArticlesSpaceProps> = ({ name, articles }) => {
                 </section>
 
                 <div className={styles.buttonWrapper}>
-                    <Button>
+                    <Button onClick={showMoreHandler}>
                         SHOW MORE
                     </Button>
                 </div>

@@ -1,0 +1,6 @@
+.articles {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    gap: 10px;
+}

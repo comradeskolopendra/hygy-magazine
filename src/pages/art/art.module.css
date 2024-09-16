@@ -14,10 +14,10 @@
 }
 
 .articles {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    gap: 64px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 35px;
     margin: 35px auto 35px auto;
     max-width: 90%;
 }

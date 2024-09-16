@@ -1,13 +1,13 @@
 import { FC } from "react";
-import styles from "./art-read-next.module.css";
+import styles from "./fashion-read-next.module.css";
 
-interface ArtReadNextProps {
+interface FashionReadNextProps {
     photo: string;
     text: string;
     title: string;
 };
 
-const ArtReadNext: FC<ArtReadNextProps> = ({ text, photo, title }) => {
+const FashionReadNext: FC<FashionReadNextProps> = ({ text, photo, title }) => {
     return (
         <article className={styles.article}>
             <img src={photo} alt="" className={styles.photo} />
@@ -17,4 +17,4 @@ const ArtReadNext: FC<ArtReadNextProps> = ({ text, photo, title }) => {
     )
 };
 
-export default ArtReadNext;
+export default FashionReadNext;

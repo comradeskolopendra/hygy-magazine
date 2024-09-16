@@ -1,0 +1,13 @@
+.swiper {
+    width: 100%;
+}
+
+.slide {
+    width: calc(50% - 5px)!important;
+}
+
+.swiperWrapper {
+    display: flex;
+    padding: 25px 0;
+    background-color: var(--primary-color);
+}

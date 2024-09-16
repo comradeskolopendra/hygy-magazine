@@ -1,0 +1,14 @@
+.control {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.control:disabled {
+    opacity: 0.7
+}
+
+.arrow {
+    width: 37px;
+    height: 50px;
+}
