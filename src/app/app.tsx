@@ -1,7 +1,14 @@
 import { Route, Routes } from "react-router";
 import { ArtPage, BeautyPage, EventsPage, FashionPage, HomePage, SocialPage, TopNewsPage, CreativePage } from "../pages";
+import { useEffect } from "react";
 
 const App = () => {
+
+  useEffect(() => {
+    // здесь запрос, поставь правильный эндопоинт
+    fetch("localhost:8080/smthng").then(res => res.json()).then(data => console.log(data));
+  }, [])
+
   return (
     <>
       <Routes>
