@@ -1,0 +1,31 @@
+.heading {
+    margin: 0;
+    font-size: 50px;
+    color: white;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: var(--primary-color)
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: 35px auto 35px auto;
+    max-width: 90%;
+}
+
+.readNextArticles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 75px;
+    margin-top: 50px;
+}

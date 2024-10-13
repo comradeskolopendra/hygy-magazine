@@ -1,0 +1,39 @@
+.article {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+    padding: 20px;
+    max-height: 0%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+}
+
+.article:hover .content {
+    transition: all 0.3s ease-in-out;
+    max-height: 100%;
+    opacity: 1;
+}
+
+.title {
+    font-size: 28px;
+    margin: 0;
+}
+
+.description {
+    font-family: "Bebas", sans-serif;
+    font-size: 22px;
+    margin: 0;
+}
+
+.article:nth-child(1) {
+    margin-bottom: 45px;
+}

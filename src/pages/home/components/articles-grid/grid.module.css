@@ -1,0 +1,48 @@
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.big {
+    width: 50%;
+}
+
+.smallArticles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 45px;
+}
+
+.articlesTitle {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-family: "Horizon", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 2px 0;
+    font-size: 35px;
+}
+
+.articlesInfo {
+    scroll-margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+.contentWrapper {
+    margin: 24px 0;
+}
+
+.buttonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px auto 0;
+}

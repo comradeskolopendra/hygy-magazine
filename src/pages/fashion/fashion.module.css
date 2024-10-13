@@ -1,0 +1,32 @@
+.contents {
+    display: flex;
+}
+
+.heading {
+    margin: 35px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigArticlesBlock {
+    margin-top: 66px;
+    margin-bottom: 33px;
+}
+
+.bigArticle {
+    display: flex;
+    align-items: center;
+}
+
+.readNext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+    gap: 75px;
+}

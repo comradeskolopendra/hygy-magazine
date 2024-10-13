@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Horizon';
+  font-weight: 900;
+  src: local('Horizon'), url(./assets/fonts/horizon.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "HorizonOutlined";
+  src: local('HorizonOutlined') url(./assets/fonts/horizon_outlined.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Matahari-Bold";
+  font-weight: 900;
+  src: local('Matahari-Bold'), url(./assets/fonts/Matahari-Bold.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: "Matahari-Thin";
+  font-weight: 100;
+  src: local('Matahari-Thin') url(./assets/fonts/Matahari-Thin.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: "Matahari";
+  font-weight: 400;
+  src: local('Matahari'), url(./assets/fonts/Matahari-Regular.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: "Bebas-Bold";
+  font-weight: 900;
+  src: local('Bebas-Bold'), url(./assets/fonts/BebasNeue-Bold.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: "Bebas-Thin";
+  font-weight: 100;
+  src: local('Bebas-Thin') url(./assets/fonts/BebasNeue-Thin.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: "Bebas";
+  font-weight: 400;
+  src: local('Bebas'), url(./assets/fonts/BebasNeue-Regular.ttf) format('opentype');
+}
+
+:root {
+  --primary-color: #D50032;
+  --dark-color: #000000;
+  --light-color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  font-family: "Horizon", sans-serif;
+  margin: 0;
+  height: 100%;
+}

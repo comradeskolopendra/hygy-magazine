@@ -1,0 +1,16 @@
+.image {
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 4px;
+    font-size: 32px;
+    margin: 0;
+}
+
+.shortInfo {
+    font-family: "Bebas", sans-serif;
+    margin-top: 4px;
+    font-size: 22px;
+    margin-bottom: 0;
+}

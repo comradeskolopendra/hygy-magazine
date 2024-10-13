@@ -1,0 +1,115 @@
+.header {
+    width: 100%;
+    padding: 16px 0;
+    background: white;
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.searchButton {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--dark-color);
+    font-size: 25px;
+    width: 165px;
+    border-bottom-width: 0;
+    position: relative;
+}
+
+.activeSearchInput {
+    border-bottom-width: 1px;
+}
+
+.titleName {
+    color: var(--primary-color);
+    font-family: "Horizon", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: fit-content;
+    text-decoration: none;
+}
+
+.hygy {
+    display: inline-block;
+    font-size: 90px;
+    height: 90px;
+}
+
+.magazine {
+    font-size: 24px;
+    letter-spacing: 23px;
+    text-indent: 5px;
+    margin-top: -5px;
+}
+
+.navigation {
+    display: block;
+    background: var(--dark-color);
+    position: sticky;
+    top: 0;
+    z-index: 101;
+}
+
+.navContents {
+    font-family: "Horizon", sans-serif;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    padding: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navLink:hover {
+    background: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+    .navigation {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .titleName {
+        scale: 0.5;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        padding: 0;
+        height: auto;
+    }
+
+    .magazine {
+        margin-left: 12px;
+    }
+}

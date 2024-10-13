@@ -1,0 +1,10 @@
+.main {
+    min-height: calc(100vh - (148.2px + 52.8px + 130.8px));
+    display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+        min-height: calc(100vh - (116.2px + 217.2px));
+    }
+}

@@ -1,0 +1,27 @@
+.article {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px 20px 40px;
+    max-width: 25%;
+}
+
+.photo {
+    height: 240px
+}
+
+.text {
+    font-size: 25px;
+    font-family: "Bebas", sans-serif;
+    position: relative;
+}
+
+.text::after {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 75px;
+    bottom: 0;
+    margin-left: -70px;
+    background: linear-gradient(90deg, rgb(255, 255, 255, 0.3) 50%, rgb(255, 255, 255, 1));
+}
