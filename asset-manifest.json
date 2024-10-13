@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.cae32b86.css",
-    "main.js": "./static/js/main.ebeba8d1.js",
+    "main.css": "./static/css/main.c162e69d.css",
+    "main.js": "./static/js/main.aaf36de0.js",
     "static/media/griefs.jpg": "./static/media/griefs.577cfcfac9a9d45aeaad.jpg",
     "static/media/Matahari-Bold.ttf": "./static/media/Matahari-Bold.b30681bbeed7346370ea.ttf",
     "static/media/Matahari-Thin.ttf": "./static/media/Matahari-Thin.5d7a4e8a3d710df22c0b.ttf",
@@ -12,13 +12,16 @@
     "static/media/horizon.otf": "./static/media/horizon.3d45dd95383aa5807d4b.otf",
     "static/media/BebasNeue-Thin.ttf": "./static/media/BebasNeue-Thin.eb87db46b38a0992f586.ttf",
     "static/media/BebasNeue-Regular.ttf": "./static/media/BebasNeue-Regular.e141c2ca4bf7dc222d1c.ttf",
+    "static/media/yumi.png": "./static/media/yumi.40dec57c6cfafbab9162.png",
     "static/media/BebasNeue-Bold.ttf": "./static/media/BebasNeue-Bold.631170744c6a98c2e74e.ttf",
+    "static/media/gaziza.png": "./static/media/gaziza.b6c1a1ff6d61915c0aef.png",
+    "static/media/yul.png": "./static/media/yul.f05bb1783fb8e80b722d.png",
     "index.html": "./index.html",
-    "main.cae32b86.css.map": "./static/css/main.cae32b86.css.map",
-    "main.ebeba8d1.js.map": "./static/js/main.ebeba8d1.js.map"
+    "main.c162e69d.css.map": "./static/css/main.c162e69d.css.map",
+    "main.aaf36de0.js.map": "./static/js/main.aaf36de0.js.map"
   },
   "entrypoints": [
-    "static/css/main.cae32b86.css",
-    "static/js/main.ebeba8d1.js"
+    "static/css/main.c162e69d.css",
+    "static/js/main.aaf36de0.js"
   ]
 }
